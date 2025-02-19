@@ -111,7 +111,7 @@ int main()
 			say(connect_d, "Knock! Knock!\n");
 			read_in(connect_d, arr, sizeof(arr));
 
-			if (strncasecmp("Who's there\r\n", arr, 12) == 0) {
+			if (strncasecmp("Who's there?\r\n", arr, 12) == 0) {
 				say(connect_d, "Oscar\n");
 				read_in(connect_d, arr, sizeof(arr));
 
